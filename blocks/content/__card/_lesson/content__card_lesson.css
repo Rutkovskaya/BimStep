@@ -1,0 +1,13 @@
+.content__card_lesson{
+  display: grid;
+  grid-template-rows: 2, 100px;
+  align-items: space-between;
+  justify-items: center;
+  }
+  
+.content__card_lesson:hover {
+    transition: .5s;
+    opacity: 100%;
+    transform: scale(1.15);
+    background: radial-gradient(30% 10%, #999999, white);
+  }

@@ -1,0 +1,13 @@
+  .content__text_link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #999;
+    line-height: normal;
+    margin:5px 0;
+  }
+
+  .content__text_link:hover {
+    transition: .5s;
+    color: #444444;
+    background:rgba(0,0,0,0.1);
+    }

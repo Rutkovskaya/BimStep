@@ -1,0 +1,7 @@
+.line_hr-dashed{
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed #ddd;
+}

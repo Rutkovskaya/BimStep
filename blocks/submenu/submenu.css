@@ -1,0 +1,18 @@
+.submenu {
+    margin: 5px 0 0 0;
+    background: rgba(245, 245, 245, 0.9);
+    border-left: 1px solid #444;
+    border-top: 1px solid #444;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    width: 150px;
+    height: 250px;
+    overflow-y: scroll;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0% 0%;
+    transition: .6s ease-in-out;
+    list-style-type: none;
+  }

@@ -1,0 +1,16 @@
+.content__card_news{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    opacity: 80%;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+  }
+  
+.content__card_news:hover {
+    opacity: 100%;
+    background-color:  rgb(233, 233, 233,0.5);
+    transition: .2s ease-in;
+    border-bottom: 5px solid #999999;
+}

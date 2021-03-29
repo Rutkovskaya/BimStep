@@ -1,0 +1,13 @@
+.header {
+    max-width: 1190px;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2,  1fr);
+    grid-template-rows: repeat(1,  max-content);
+    grid-auto-rows: max-content;
+    gap: 30px;
+    grid-template-areas:"logo text";
+    align-items: center;
+ }

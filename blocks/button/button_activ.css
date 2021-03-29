@@ -1,0 +1,29 @@
+a.fciA_activ{
+    color: #444444;
+    background:rgba(0,0,0,0.1);
+    position: relative;
+  }
+
+  a.fciA_activ:after {
+    left: -10px;
+    top: -12px;
+    opacity: 1;
+  }
+
+  a.fciA_activ:before {
+    right: -10px;
+    top: -12px;
+    opacity: 1;
+  }
+
+  .fciSpan_activ:after {
+    left: -10px;
+    bottom: -14px;
+    opacity: 1;
+  }
+ 
+  .fciSpan_activ:before {
+    right: -10px;
+    bottom: -14px;
+    opacity: 1;
+  }

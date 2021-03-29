@@ -1,0 +1,19 @@
+.content__card_plagin{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color:black;
+    text-decoration:none;
+    background-image: linear-gradient(to left,transparent,transparent 50%, #555555 50%, #555555);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font-size: 14px ;
+    border: 1px solid  #555555;
+  }
+
+  .content__card_plagin:hover {
+    background-position: 0 0;
+    color:#fff;
+}

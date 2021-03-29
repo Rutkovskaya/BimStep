@@ -1,0 +1,6 @@
+.content__card_lesson_n{
+    border: 1px dashed #74747431;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }

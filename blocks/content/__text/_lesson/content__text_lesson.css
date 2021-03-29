@@ -1,0 +1,12 @@
+  .content__text_lesson{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .content__text_lesson:hover {
+    color:black;
+    font-weight:normal;
+    }

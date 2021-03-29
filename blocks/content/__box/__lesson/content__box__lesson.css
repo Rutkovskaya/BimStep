@@ -1,0 +1,7 @@
+.content__box__lesson{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  grid-auto-rows: 110px;
+  gap: 30px;
+}

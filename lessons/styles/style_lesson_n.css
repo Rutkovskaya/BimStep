@@ -1,0 +1,157 @@
+@import url(../../blocks/button/button.css);
+@import url(../../blocks/button/button_activ.css);
+
+.content {
+  max-width: 1190px;
+  min-width: 720px;
+  min-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.content_flex-raw{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.menu_left{
+  padding-top: 90px;
+  width: 250px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+  
+.menu_left_head__link{
+  padding-bottom: 30px;
+  color:rgb(141, 199, 63);
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.menu_left_head__link:hover {
+  color:rgba(152, 67, 150);
+}
+
+.menu_left__link {
+ font-size: 15px;
+ text-decoration: none;
+ color: #10191E;
+ margin-right: 20px;
+ font-weight: 700;
+}
+
+.menu_left__link_active{
+ color:rgb(141, 199, 63);
+ font-size: 18px;
+}
+   
+.menu_left__link:hover {
+ color:rgba(152, 67, 150);
+}
+  
+.all{  
+ min-width: 500px;
+ display: flex;
+ flex-direction: column;
+}
+
+.all__head_text{
+  font-size: 25px;
+  text-align: center;
+  color: rgba(141, 199, 63);
+ }
+
+.all__title_text{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  }
+
+.all_flex-row {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items:stretch;
+}
+
+/* Боксы уроков */
+.all_box{
+  font-style:normal;
+  font-weight:bold;
+  font-size: 19px;
+  line-height:150%;
+  text-align:center;
+  border: 1px dashed #74747431;
+  display: flex;
+  flex-direction: column;
+}
+
+.all_box_text{
+  font-style:oblique;
+  font-weight: normal;
+  font-size: 16px;
+  line-height:150%;
+  text-align:left;
+  text-indent:5px;
+  color: black;
+}
+
+.all_box_link{
+  font-style:oblique;
+  font-weight: normal;
+  font-size: 14px;
+  line-height:130%;
+  text-align:left;
+  text-indent:5px;
+  color: rgba(152, 67, 150);
+}
+
+ /* Настройки видоса */
+.project__video {
+  width: 93%;
+  height: 80%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+ display: block;
+margin-bottom: 40px;
+}
+
+/* Домашняя работа */
+.all__title_text{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.home_work_text{
+  font-style:oblique;
+  font-weight: normal;
+  font-size: 16px;
+  text-align:left;
+  text-indent:5px;
+  color: black;
+  padding: 0 50px;
+}
+
+
+/* Размеры карточек*/
+.project_width_xl{
+  width: 500px;
+}
+
+.project_width_l{
+    width: 400px;
+  }
+  
+  .project_width_m{
+    width: 300px;
+  }
+
+  .project_width_s{
+    width: 200px;
+  }

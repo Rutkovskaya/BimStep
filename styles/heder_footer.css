@@ -1,0 +1,91 @@
+
+  /*МЕНЮ*/
+.menu {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 30px;
+  max-width: 1190px;
+  min-width: 720px;
+  background-color: rgb(233, 233, 233,0.5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*ПОДВАЛ*/
+.footer {
+  position: relative;
+  height: 190px;
+  display: flex;
+  max-width: 1190px;
+  min-width: 720px;
+  background-color: rgb(233, 233, 233,0.5);
+  border-radius: 5px;
+ margin-left: auto;
+margin-right: auto;
+}
+
+.footer__columns{
+    margin: 0;
+  width: 90%;
+  height: 250px;
+}
+
+.footer__column_content_copyright{
+  left: 0;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.logo_plase_footer{
+  width: 200px;
+  height: 45px;
+  background-image: url(../images/logo_footer.png);
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.1);
+margin-top: 20px;
+margin-left: 15%;
+}
+
+.footer__author{
+  padding: 18px 0;
+  line-height: 25px;
+  font-size: 10px;
+  font-weight: normal; 
+margin-left: 15%;
+}
+
+.footer__column_content_info{
+  position: absolute;
+  right: 15%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-heading{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer__column-links{
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+margin-bottom: 16px;
+}
+
+.footer__column-link{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+}

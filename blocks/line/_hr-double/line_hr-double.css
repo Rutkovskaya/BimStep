@@ -1,0 +1,9 @@
+.line_hr-double{
+    margin: 20px 0;
+	padding: 0;
+	height: 20px;
+	border: none;
+	color: #333;
+	background-image: linear-gradient(currentColor, currentColor 33.33%, transparent 33.33%, transparent 100%);
+	background-size: 100% 3px;
+}

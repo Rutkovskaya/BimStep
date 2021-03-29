@@ -1,0 +1,10 @@
+.content__subtitle_link{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    }
+
+    .content__subtitle_link:hover {
+        color:rgb(152, 67, 150);
+        font-weight: bold;
+        }
