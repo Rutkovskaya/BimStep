@@ -5,3 +5,21 @@
     grid-auto-rows: minmax(50px, max-content);
     gap: 10px;
 }
+
+@media (max-width: 790px) {
+    .content__box__plagin {
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+  }
+
+  @media (max-width: 620px) {
+    .content__box__plagin {
+      grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+  }
+
+@media (max-width: 425px) {
+    .content__box__plagin {
+      grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+  }
