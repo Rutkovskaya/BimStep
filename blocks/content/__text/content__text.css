@@ -4,3 +4,9 @@
     margin:5px 0;
     color: black;
   }
+
+  @media (max-width: 425px) {
+    .content__text {
+      font-size: 12px;
+    }
+  }

@@ -24,3 +24,9 @@
     -ms-font-feature-settings: "kern" 1;
     font-feature-settings: "kern";
    }
+
+   @media (max-width: 425px) {
+    .page {
+      margin-top: 5px;
+    }
+  }

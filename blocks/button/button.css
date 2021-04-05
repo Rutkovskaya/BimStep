@@ -14,10 +14,21 @@ a.fciA {
     -o-transition: color 0.2s;
     transition: color 0.2s;
   }
+
+  @media (max-width: 425px) {
+    .a.fciA {
+      font-size: 14px;
+      line-height: 14px;
+      margin: 9px auto;
+    }
+  }
+
+  
   a.fciA:hover {
     color: #444444;
     background:rgba(0,0,0,0.1);
   }
+
   a.fciA:after {
     left: -20px;
     -webkit-transition-property: left, opacity, top;
@@ -38,11 +49,15 @@ a.fciA {
     top: -22px;
     opacity: 0;
   }
+
+ 
+
   a.fciA:hover:after {
     left: -10px;
     top: -12px;
     opacity: 1;
   }
+
   a.fciA:before {
     right: -20px;
     -webkit-transition-property: right, opacity, top;
@@ -63,11 +78,14 @@ a.fciA {
     top: -22px;
     opacity: 0;
   }
+
+
   a.fciA:hover:before {
     right: -10px;
     top: -12px;
     opacity: 1;
   }
+
   .fciSpan:after {
     left: -20px;
     -webkit-transition-property: left, opacity, bottom;
@@ -88,6 +106,8 @@ a.fciA {
     bottom: -24px;
     opacity: 0;
   }
+
+  
   .fciSpan:hover:after {
     left: -10px;
     bottom: -14px;
@@ -113,6 +133,7 @@ a.fciA {
     bottom: -24px;
     opacity: 0;
   }
+
   .fciSpan:hover:before {
     right: -10px;
     bottom: -14px;

@@ -12,3 +12,10 @@
     text-align: right;
     padding-right: 50px;
    }
+
+   @media (max-width: 425px) {
+    .header__text {
+      font-size: 30px;
+      padding-right: 10px;
+    }
+  }
