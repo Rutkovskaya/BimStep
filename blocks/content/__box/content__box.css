@@ -4,3 +4,9 @@
   grid-auto-rows: max-content;
   gap: 0px 15px;
     }
+
+    @media (max-width: 620px) {
+      .content__box {
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
+      }
+    }

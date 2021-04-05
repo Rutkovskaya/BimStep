@@ -13,7 +13,21 @@
     padding-right: 50px;
    }
 
-   @media (max-width: 425px) {
+   @media (max-width: 768px) {
+    .header__text {
+      font-size: 38px;
+      padding-right: 25px;
+    }
+  }
+
+  @media (max-width: 488px) {
+    .header__text {
+      font-size: 33px;
+      padding-right: 25px;
+    }
+  }
+
+   @media (max-width: 450px) {
     .header__text {
       font-size: 30px;
       padding-right: 10px;
