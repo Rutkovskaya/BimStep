@@ -1,9 +1,15 @@
 .header_logo{
-    /*position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 180px;
-    height: 75px;
-    background-image: url(../../../images/logo.JPG);
-    background-size: cover;*/
+    width: 200px;
+  height: 60px;
+  background-size:cover ;
+    background-image: url(../../../images/logo.jpeg);
+    background-size: cover;
    }
+
+   @media (max-width: 600px) {
+    .header_logo {
+        width: 100px;
+        height: 30px;
+        background-size:cover;
+    }
+  }

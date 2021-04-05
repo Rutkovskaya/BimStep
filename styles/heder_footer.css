@@ -46,11 +46,20 @@ margin-right: auto;
 }
 .logo_plase_footer{
   width: 200px;
-  height: 45px;
-  background-image: url(../images/logo_footer.png);
+  height: 60px;
+  background-size:cover ;
+  background-image: url(../images/logo.jpeg);
   box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.1);
 margin-top: 20px;
 margin-left: 15%;
+}
+
+@media (max-width: 600px) {
+  .logo_plase_footer {
+      width: 100px;
+      height: 30px;
+      background-size:cover;
+  }
 }
 
 .footer__author{
